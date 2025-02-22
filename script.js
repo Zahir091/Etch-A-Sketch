@@ -9,3 +9,9 @@ for(let j=0; j<16; j++) {
     }
     col.append(row);
 }
+
+document.querySelectorAll('.square').forEach(square => {
+    square.addEventListener('mouseenter', function(){
+        square.style.backgroundColor = 'pink';
+    });
+});
