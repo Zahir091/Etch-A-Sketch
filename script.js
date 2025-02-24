@@ -15,11 +15,7 @@ for(let j=0; j<16; j++) {
 
 col.addEventListener('dblclick', function() {
     drawMode = !drawMode; //toggling between states based on double click function
-    if (drawMode) {
-        document.body.style.cursor = "url('paint-brush.png'), auto"; 
-    } else {
-        document.body.style.cursor = "default"; 
-    }
+
 });
 document.querySelectorAll('.square').forEach(square => {
     square.addEventListener('mouseenter', function(){

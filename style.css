@@ -1,13 +1,22 @@
 body {
     height:100vh; /*takes up 100% of the user's viewport height*/
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+h5 {
+    margin: 0;
+}
+
+.options {
+    display: flex;
 }
 .square {
     width:25px;
     height:25px;
-    background-color: aquamarine;
+    background-color: rgb(181, 181, 181);
     margin: 1px;
 }
 
@@ -19,5 +28,6 @@ body {
 .col {
     display:flex;
     flex-direction: column;
+    border: solid rgb(186, 168, 168) 15px;
 
 }
